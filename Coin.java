@@ -27,7 +27,7 @@ public class Coin {
 	}
 	private void x0() {
 		x = System.currentTimeMillis();
-		while (x % m == 0 && x < 2) {
+		while (x % m == 0 || x < 2) {
 			x++;
 		}
 	}
